@@ -1,0 +1,16 @@
+{
+  "name": "Jam-Stack",
+  "version": "1.0.0",
+  "main": "viber.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
