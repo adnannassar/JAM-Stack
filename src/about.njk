@@ -6,7 +6,13 @@ layout: base.njk
 
   <div class="container">
             <h1>this Page is for you</h1>
-            <p>it was made for using html, css and javascript. And served as a JAMStack site.</p>
-       <script src="viber.js"></script>
+            <p>it was made for using html, css and javascript. And served as a JAMStack site.</p>  
   </div>
+
+
+  {% for item in news %}
+     <a href="/{{ item.country }}"> {{item.country}}</a> &nbsp 
+  {% endfor %}
+
+        <script src="/js/vibe.js"></script>
     
